@@ -1,0 +1,474 @@
+{
+ "en": {
+  "k": 3.0764962584372846,
+  "n_base": 10,
+  "q": 6,
+  "bands": {
+   "retrieval_hit": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "lk": 0.9384700748312543,
+    "l2": 0.96
+   },
+   "contains_ref": {
+    "mean": 0.43200000000000005,
+    "sd": 0.026997942308422118,
+    "min": 0.38,
+    "max": 0.48,
+    "lk": 0.3489409315026337,
+    "l2": 0.3780041153831558
+   },
+   "judge_correct": {
+    "mean": 0.568,
+    "sd": 0.02529822128134701,
+    "min": 0.54,
+    "max": 0.62,
+    "lk": 0.49017011688281736,
+    "l2": 0.5174035574373059
+   },
+   "lang_consistent": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "min": 1.0,
+    "max": 1.0,
+    "lk": 0.9384700748312543,
+    "l2": 0.96
+   },
+   "abstained": {
+    "mean": 0.21799999999999997,
+    "sd": 0.027406406388125956,
+    "min": 0.2,
+    "max": 0.28,
+    "lk": 0.3023157067102812,
+    "l2": 0.2728128127762519
+   },
+   "latency": {
+    "mean": 1.9491821079254148,
+    "sd": 0.11334313280401073,
+    "min": 1.8372493410110473,
+    "max": 2.1313932132720947,
+    "lk": 2.297881831916514,
+    "l2": 2.175868373533436
+   }
+  },
+  "versions": {
+   "en_control": {
+    "means": {
+     "retrieval_hit": 1.0,
+     "contains_ref": 0.43199999999999994,
+     "judge_correct": 0.56,
+     "faithful": 0.5482186234817814,
+     "lang_consistent": 1.0,
+     "abstained": 0.21200000000000002,
+     "latency": 1.8982629709243777
+    },
+    "k": [
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "two": [
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "fixed": [
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ]
+    ],
+    "single": 0.62,
+    "sig": []
+   },
+   "en_K2": {
+    "means": {
+     "retrieval_hit": 0.76,
+     "contains_ref": 0.344,
+     "judge_correct": 0.46799999999999997,
+     "faithful": NaN,
+     "lang_consistent": 1.0,
+     "abstained": 0.34400000000000003,
+     "latency": 1.7242692327499387
+    },
+    "k": [
+     [
+      "retrieval_hit",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ]
+    ],
+    "two": [
+     [
+      "retrieval_hit",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ]
+    ],
+    "fixed": [
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ]
+    ],
+    "single": 1.0,
+    "sig": [
+     [
+      "retrieval_hit",
+      -0.24
+     ],
+     [
+      "abstained",
+      0.126
+     ],
+     [
+      "judge_correct",
+      -0.1
+     ],
+     [
+      "contains_ref",
+      -0.088
+     ]
+    ]
+   },
+   "en_R1": {
+    "means": {
+     "retrieval_hit": 0.9800000000000001,
+     "contains_ref": 0.392,
+     "judge_correct": 0.516,
+     "faithful": NaN,
+     "lang_consistent": 1.0,
+     "abstained": 0.276,
+     "latency": 1.5587017307281494
+    },
+    "k": [
+     [],
+     [],
+     [],
+     [],
+     [
+      "judge_correct"
+     ]
+    ],
+    "two": [
+     [
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "contains_ref",
+      "judge_correct",
+      "abstained"
+     ],
+     [
+      "abstained"
+     ],
+     [],
+     [
+      "judge_correct"
+     ]
+    ],
+    "fixed": [
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ]
+    ],
+    "single": 1.0,
+    "sig": [
+     [
+      "retrieval_hit",
+      -0.02
+     ],
+     [
+      "abstained",
+      0.058
+     ]
+    ]
+   }
+  },
+  "loo": 1
+ },
+ "app": {
+  "k": 3.0764962584372846,
+  "n_base": 10,
+  "q": 6,
+  "bands": {
+   "retrieval_hit": {
+    "mean": 0.7300000000000001,
+    "sd": 1.1702778228589004e-16,
+    "min": 0.73,
+    "max": 0.73,
+    "lk": 0.6992350374156272,
+    "l2": 0.7100000000000001
+   },
+   "contains_ref": {
+    "mean": 0.485,
+    "sd": 0.02915475947422651,
+    "min": 0.42,
+    "max": 0.52,
+    "lk": 0.39530549156190314,
+    "l2": 0.42669048105154694
+   },
+   "judge_correct": {
+    "mean": 0.5459999999999999,
+    "sd": 0.025033311140691426,
+    "min": 0.51,
+    "max": 0.58,
+    "lk": 0.4689851119393664,
+    "l2": 0.49593337771861706
+   },
+   "lang_consistent": {
+    "mean": 0.8139999999999998,
+    "sd": 0.022705848487901838,
+    "min": 0.78,
+    "max": 0.85,
+    "lk": 0.744145542082326,
+    "l2": 0.7685883030241961
+   },
+   "abstained": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "lk": 0.030764962584372845,
+    "l2": 0.02
+   },
+   "latency": {
+    "mean": 4.162968466997147,
+    "sd": 0.05806835562133233,
+    "min": 4.070436036586761,
+    "max": 4.261612300872803,
+    "lk": 4.341615545799781,
+    "l2": 4.279105178239812
+   }
+  },
+  "versions": {
+   "app_control": {
+    "means": {
+     "retrieval_hit": 0.73,
+     "contains_ref": 0.47400000000000003,
+     "judge_correct": 0.538,
+     "lang_consistent": 0.818,
+     "abstained": 0.0,
+     "latency": 4.1886700963974
+    },
+    "k": [
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "two": [
+     [],
+     [],
+     [],
+     [],
+     []
+    ],
+    "fixed": [
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ],
+     [],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref"
+     ]
+    ],
+    "single": 0.74,
+    "sig": []
+   },
+   "app_K2": {
+    "means": {
+     "retrieval_hit": 0.55,
+     "contains_ref": 0.41600000000000004,
+     "judge_correct": 0.476,
+     "lang_consistent": 0.7939999999999999,
+     "abstained": 0.0,
+     "latency": 4.267388510704041
+    },
+    "k": [
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "retrieval_hit"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "latency"
+     ],
+     [
+      "retrieval_hit"
+     ],
+     [
+      "retrieval_hit"
+     ]
+    ],
+    "two": [
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "retrieval_hit"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "lang_consistent",
+      "latency"
+     ],
+     [
+      "retrieval_hit",
+      "judge_correct",
+      "latency"
+     ],
+     [
+      "retrieval_hit",
+      "contains_ref",
+      "judge_correct",
+      "latency"
+     ]
+    ],
+    "fixed": [
+     [
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "contains_ref"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ],
+     [
+      "contains_ref",
+      "judge_correct"
+     ]
+    ],
+    "single": 1.0,
+    "sig": [
+     [
+      "retrieval_hit",
+      -0.18
+     ],
+     [
+      "judge_correct",
+      -0.07
+     ],
+     [
+      "contains_ref",
+      -0.069
+     ]
+    ]
+   }
+  },
+  "loo": 1
+ }
+}
