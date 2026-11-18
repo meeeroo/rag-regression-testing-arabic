@@ -1,0 +1,13 @@
+# Analysis
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+# Experiments (GPU)
+torch
+transformers
+sentence-transformers
+accelerate
+bitsandbytes
+llama-index-core
+tqdm
